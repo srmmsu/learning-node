@@ -1,0 +1,19 @@
+{
+  "author": "Rama Mohan Suryadevara <srmmsu@yahoo.com>",
+  "name": "learning-node",
+  "description": "node tutorials",
+  "version": "0.0.1",
+  "homepage": "https://github.com/srmmsu/learning-node",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/srmmsu/learning-node.git"
+  },
+  "dependencies": {
+  	"mathjs":">= 0.5.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
