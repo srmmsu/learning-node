@@ -12,7 +12,7 @@ var handleReq = function(req, res){
 app.get('/', handleReq);
 
 
-
+// Additional route to describe the application
 
 app.get('/about', function(req, res){
   res.send('Web server that should lead to Gujarati OCR webservice.');
@@ -20,7 +20,8 @@ app.get('/about', function(req, res){
 
 app.get('/add', function(req, res){
 	console.log('add requested');
-  	res.send(req.query.a + req.query.b);
+	var answer = parseInt(req.query.a)+parseInt(req.query.b);
+    res.send("The answer is: "+answer);
 });
 
 app.get('/currenttime', function(req, res){
